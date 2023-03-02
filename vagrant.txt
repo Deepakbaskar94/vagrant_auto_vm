@@ -1,0 +1,32 @@
+Vagrant
+
+	Installation:
+		sudo apt install virtualbox
+	Install Vagrant
+		curl -O https://releases.hashicorp.com/vagrant/2.2.9/vagrant_2.2.9_x86_64.deb
+		sudo apt install ./vagrant_2.2.9_x86_64.deb
+		
+		
+		
+		
+mkdir ubuntufolder
+cd ubuntufolder
+
+To Create VM:		(https://app.vagrantup.com/boxes/search)
+	vagrant init ubuntu/bionic64
+
+To Start Vm:
+	vagrant up
+
+To connect in command line:
+	vagrant ssh
+	
+To stop the Vm:
+	vagrant halt
+
+To restart Vm:
+	vagrant reload
+
+To Delete VM:
+	vagrant destroy
+
